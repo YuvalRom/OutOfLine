@@ -2,7 +2,7 @@ import sys, math, cairo, importlib
 sys.path.insert(0,'pages')
 import engine
 
-MODS = ['p1_owl','p2_jellyfish','p3_butterfly','p4_fish','p5_balloon','p6_elephant','p7_city']
+MODS = ['p1_owl','p2_jellyfish','p3_butterfly','p4_fish','p6_elephant','p7_city']
 PAGES = [importlib.import_module(m).PAGE for m in MODS]
 PT=72.0; PW,PH = 8.5*PT, 11*PT
 
@@ -26,7 +26,7 @@ def cover(cr):
     for i in range(1,40):
         t=i/39.0; cr.line_to(PW/2-70+t*260, 455+95*math.sin(t*9)+t*70)
     cr.stroke()
-    text(cr,"7 pictures that are secretly other pictures",PW/2,680,12)
+    text(cr,"6 pictures that are secretly other pictures",PW/2,680,12)
     text(cr,"colours: your call",PW/2,700,12)
 
 def howto(cr):

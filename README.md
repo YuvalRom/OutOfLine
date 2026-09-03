@@ -16,10 +16,12 @@ straight over it.** The lines are not the boss of you.
 | 1 | the house | an owl |
 | 2 | the umbrella | a jellyfish |
 | 3 | the flower | a butterfly |
-| 4 | the sailboat | a fish under a big wave |
-| 5 | the teacup | a hot air balloon |
-| 6 | the tree | an elephant |
-| 7 | the bookshelf | a city at night |
+| 4 | the sailboat | a fish |
+| 5 | the tree | an elephant |
+| 6 | the bookshelf | a city at night |
+
+(, a teacup/hot-air-balloon page, is kept in the tree
+but not included in the book - add it back via MODS in book.py if wanted.)
 
 ## How it works
 
@@ -38,7 +40,7 @@ straight over it.** The lines are not the boss of you.
 - `sheet.py p3_butterfly p5_balloon ...` - contact sheet (line art + reveal)
   to `_sheet.png` for reviewing pages.
 - `book.py` - assembles the print-ready US-Letter PDF (cover, instructions,
-  7 colouring pages, 2 answer pages).
+  6 colouring pages, 2 answer pages).
 
 ## Build
 
