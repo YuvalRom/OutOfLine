@@ -12,11 +12,8 @@ def rebuild(pages):
     for p in pages:
         key = p['key']
         if key == 'balloon':
-            from p5_balloon import CX, CY, R, RY
-            tea = ellipse(CX, CY, R, RY)
-            cubes = [rect(276,878,332,922), rect(342,886,398,928)]
-            p['shapes'] = [(pts, 5 if pts == tea else num)
-                           for pts,num in p['shapes'] if pts not in cubes]
+            from teacup_balloon import redesign
+            redesign(p)
         elif key == 'city':
             city(p)
         elif key == 'butterfly':
@@ -36,13 +33,13 @@ def city(p):
     books[5][2].append((780, old.BASE, 5))
     p['shapes'] = [(rect(44,44,964,974),1), (rect(44,866,964,974),6),
         ([(378,866),(462,866),(502,940),(342,940)],7),
-        (circle(146,196,86),7)]
+        (circle(146,196,86),5)]
     for at, col, bands in books:
         p['shapes'].append((old.body(at),col))
         for y0,y1,bc in bands:
             p['shapes'].append((old.band(at,y0,y1),bc))
     p['shapes'] += [(rect(612,56,684,108),4), (rect(262,544,360,600),4),
-        (blob(886,728,78,.13,seed=4),4),
+        (blob(886,728,78,.13,seed=4),2),
         ([(848,802),(932,802),(920,866),(860,866)],6)]
     thin = [[(44,62),(964,62)]]
     for at, col, bands in books:
@@ -61,8 +58,10 @@ def city(p):
         a=math.radians(a)
         thin.append([(886,728),(886+64*math.cos(a),728+64*math.sin(a))])
     p['thin']=thin
-    p['colors'].update({1:(.12,.15,.31),2:(.23,.27,.40),3:(.34,.38,.49),
-                        4:(.08,.09,.14),6:(.39,.39,.42)})
+    p['colors']={1:(.73,.89,.98),2:(.36,.76,.59),3:(.98,.48,.39),
+                 4:(.66,.57,.86),5:(1.,.83,.31),6:(.88,.72,.54),
+                 7:(1.,.97,.88)}
+    p['answer']='a city in daylight'
 
 def butterfly(p):
     import p3_butterfly as b

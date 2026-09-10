@@ -31,9 +31,9 @@ reading.
 | 2 | Umbrella | Jellyfish | Cleaned up; rain restored |
 | 3 | Flower | Butterfly | Approved after line cleanup |
 | 4 | Sailboat | Fish | Scales contained inside the body; stronger thin mast |
-| 5 | Teacup | Hot-air balloon | Included; next refinement pending |
+| 5 | Teacup | Hot-air balloon | Redesigned steam envelope and cup basket; awaiting review |
 | 6 | Tree | Elephant | Leaf cues, joined legs, shorter trunk and tusks |
-| 7 | Bookshelf | City at night | Included; next refinement pending |
+| 7 | Bookshelf | City in daylight | Blue sky, yellow sun, mint/coral/lavender buildings; awaiting review |
 
 The paper-airplane cover is selected for now. Its exact subtitle is
 **“The lines are not the boss of me!”**. The cover does not reveal any puzzle.
@@ -90,6 +90,7 @@ tests cannot establish whether both visual readings work for a child.
 | --- | --- |
 | `recreate.py` | Current CLI, PDF layout, vector rendering and label placement |
 | `reference_reconstruction.py` | Reconstructs differences from the supplied prototypes |
+| `teacup_balloon.py` | Steam/balloon and cup/basket shared geometry |
 | `cleanup.py` | Current line cleanup, clipping metadata and selected refinements |
 | `cover_alternative.py` | Active paper-airplane cover; filename retained from its proposal stage |
 | `pages/` | Original saved geometry, retained for comparison |
@@ -110,7 +111,7 @@ by the linked book in `book/recreated/`.
 
 ## Remaining work
 
-The teacup and bookshelf are the next planned refinement. Some small regions
+The redesigned teacup and daylight bookshelf await owner review. Some small regions
 still do not receive a number, and some hidden subjects are apparent before
 colouring. The region audit includes tiny raster slivers, so its counts are not
 counts of confirmed print defects. Age suitability and the two readings still

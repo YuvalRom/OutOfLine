@@ -37,11 +37,12 @@ def labels(page):
     d = ImageDraw.Draw(lab)
     ink = Image.new('L', (size, size), 0)
     di = ImageDraw.Draw(ink)
-    for pts, num in page['shapes']:
+    for i, (pts, num) in enumerate(page['shapes']):
         d.polygon(pts, fill=num)
         if page.get('occlude_outlines'):
             di.polygon(pts, fill=0)
-        di.line(pts + [pts[0]], fill=255, width=engine.LINE_W, joint='curve')
+        di.line(pts + [pts[0]], fill=255,
+                width=round(page.get('outline_widths', {}).get(i, engine.LINE_W)), joint='curve')
     arr = np.array(lab)
     arr[np.array(ink) > 0] = 0
     yy, xx = np.mgrid[:size, :size]
@@ -98,7 +99,7 @@ def art(c, page, x, top, size, height, filled=False, numbered=None):
             for line in page.get('details', {}).get(i, []):
                 c.drawPath(path(c, line))
             c.restoreState()
-            c.setLineWidth(7)
+            c.setLineWidth(page.get('outline_widths', {}).get(i, 7))
             c.drawPath(path(c, pts, True))
         c.setLineWidth(2.4)
         for pts in page.get('foreground', []):

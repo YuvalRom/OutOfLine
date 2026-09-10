@@ -1,7 +1,7 @@
 # Design status
 
-Current checkpoint: the owner requested saving this version to the repository.
-The next planned artwork review is the teacup and bookshelf.
+Current checkpoint: teacup redesigned and bookshelf recoloured for daylight.
+Both are proposals awaiting owner review.
 
 ## Intent
 
@@ -22,8 +22,8 @@ All seven pages have seven colour numbers. Example palettes are suggestions.
 | Flower / butterfly | Approved after cleanup. Flowing veins replace the dense grid. |
 | Sailboat / fish | Scales stay in the visible body and do not cross fins, belly, deck or portholes. Keep the thin black mast centreline. |
 | Tree / elephant | Rounded crown, sparse leaf veins and knot-like eyes. Legs/feet meet at x=500. Shorter trunk and tusks. No scale pattern or construction grid. |
-| Teacup / balloon | Present in the book. Keep current rendering until its planned refinement. |
-| Bookshelf / city | Present in the book. Keep current rendering until its planned refinement. |
+| Teacup / balloon | Wide cup, clear rim/handle and saucer; steam forms a continuous five-panel balloon, cup becomes its basket. Awaiting review. |
+| Bookshelf / city | Daylight: pale blue sky, yellow sun, mint/coral/lavender buildings and sandy ground. Geometry preserved. Awaiting review. |
 
 The elephant's trunk vertical length is 68% of the preceding reconstruction;
 its tusks are 65% vertically and 80% horizontally about their attachment-side
@@ -47,7 +47,8 @@ first-person wording does not imply an automatic rewrite of every interior line.
 
 ## Pending review
 
-- Refine teacup and bookshelf after the owner's next feedback.
+- Review the new teacup and daylight bookshelf. The balloon is clearer, but its
+  silhouette may be too apparent in the uncoloured steam; assess the surprise.
 - Reassess tiny unnumbered regions at printed size, especially for younger kids.
 - Test whether children see the intended ordinary object before the reveal.
 - Review print format, margins and production requirements before final release.

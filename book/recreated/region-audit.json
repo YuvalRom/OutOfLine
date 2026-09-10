@@ -1248,7 +1248,7 @@
     ]
   },
   "balloon": {
-    "labels": 40,
+    "labels": 28,
     "unlabelled_components": [
       {
         "num": 1,
@@ -1259,83 +1259,39 @@
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 2
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
-        "area": 1
-      },
-      {
-        "num": 1,
+        "num": 2,
         "area": 1
       },
       {
@@ -1447,44 +1403,128 @@
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 4,
+        "num": 3,
         "area": 1
       },
       {
-        "num": 5,
-        "area": 97
+        "num": 3,
+        "area": 1
       },
       {
-        "num": 5,
-        "area": 70
+        "num": 3,
+        "area": 1
       },
       {
-        "num": 5,
-        "area": 2792
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
       },
       {
         "num": 6,
@@ -1505,14 +1545,6 @@
       {
         "num": 6,
         "area": 1
-      },
-      {
-        "num": 6,
-        "area": 1
-      },
-      {
-        "num": 6,
-        "area": 6
       },
       {
         "num": 6,
@@ -1917,6 +1949,22 @@
         "area": 742
       },
       {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 2
+      },
+      {
+        "num": 2,
+        "area": 121
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
         "num": 3,
         "area": 373
       },
@@ -1927,22 +1975,6 @@
       {
         "num": 3,
         "area": 100
-      },
-      {
-        "num": 4,
-        "area": 1
-      },
-      {
-        "num": 4,
-        "area": 2
-      },
-      {
-        "num": 4,
-        "area": 121
-      },
-      {
-        "num": 4,
-        "area": 1
       },
       {
         "num": 5,

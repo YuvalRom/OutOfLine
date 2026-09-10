@@ -7,7 +7,8 @@
 3. `reference_reconstruction.rebuild()` copies the dictionaries and reconstructs
    features missing from the saved history.
 4. That function calls `cleanup.clean()` for the umbrella, flower, fish and
-   elephant. The owl, teacup and bookshelf keep the preceding rendering rules.
+   elephant. It also calls `teacup_balloon.redesign()` for the new cup geometry.
+   The owl and bookshelf keep the preceding rendering rules.
 5. `recreate.labels()` computes automatic label positions.
 6. ReportLab writes the comparison sheets and US-Letter book. The active cover
    comes from `cover_alternative.cover()`.
@@ -29,12 +30,13 @@ come from `fonts/`, which includes their licence.
 | `thin` | Legacy global detail polylines on untouched pages |
 | `occlude_outlines` | Enables shape-by-shape rendering and hidden-outline removal |
 | `details` | Shape-index-to-polylines map, clipped to each owning polygon |
+| `outline_widths` | Optional per-shape structural width; steam panels use 4.2 |
 | `detail_widths` | Optional shape-specific detail width; mast is 4 instead of 2.4 |
 | `background` | Polylines drawn before shapes, such as rain or water |
 | `foreground` | Intentional detail drawn after shapes, such as flower stamens |
 | `key`, `title`, `answer`, `prompt`, `ncolors` | Page metadata and text |
 
-Structural outlines are 7 artwork units; ordinary thin detail is 2.4 units.
+Structural outlines default to 7 artwork units; ordinary thin detail is 2.4 units.
 `details` uses integer shape indices, so reordering or inserting shapes requires
 updating their detail assignments. Pay particular attention to fish body index 6,
 mast index 5, and elephant legs/feet/trunk/tusks indices 5-11.

@@ -21,7 +21,9 @@ The function recreate.cover() is an unused earlier crayon design.
   centre, shortened trunk and tusks. Do not restore grids or scale textures.
 - The paper-airplane cover is selected for now. Subtitle is exactly:
   "The lines are not the boss of me!". Do not show puzzle answers on the cover.
-- Teacup and bookshelf refinements await the owner's next direction.
+- Teacup: a wide cup and handle become a basket; steam forms the balloon.
+  This new interpretation awaits review, especially its uncoloured first reading.
+- Bookshelf: daylight palette with blue sky, yellow sun, mint, coral and lavender.
 
 ## Validate and preserve context
 
