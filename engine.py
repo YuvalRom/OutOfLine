@@ -14,7 +14,10 @@ Coordinate space is 0..1000 in x and y, y pointing DOWN.
 import math
 import numpy as np
 from PIL import Image, ImageDraw
-import cairo
+try:
+    import cairo
+except ImportError:
+    cairo = None  # The portable ReportLab renderer does not need native Cairo.
 
 # ---------------------------------------------------------------- primitives
 def circle(cx, cy, r, n=80):

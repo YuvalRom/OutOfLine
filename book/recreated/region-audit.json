@@ -1,0 +1,1961 @@
+{
+  "owl": {
+    "labels": 35,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 6425
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 20147
+      },
+      {
+        "num": 7,
+        "area": 3717
+      },
+      {
+        "num": 7,
+        "area": 3717
+      }
+    ]
+  },
+  "jellyfish": {
+    "labels": 38,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      }
+    ]
+  },
+  "butterfly": {
+    "labels": 41,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 2
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      }
+    ]
+  },
+  "fish": {
+    "labels": 30,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 960
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 59
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 771
+      },
+      {
+        "num": 2,
+        "area": 181
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 2
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 3
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 2673
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 6629
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 570
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      }
+    ]
+  },
+  "balloon": {
+    "labels": 40,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 2
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 97
+      },
+      {
+        "num": 5,
+        "area": 70
+      },
+      {
+        "num": 5,
+        "area": 2792
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 6
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      },
+      {
+        "num": 6,
+        "area": 1
+      }
+    ]
+  },
+  "elephant": {
+    "labels": 30,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 164
+      },
+      {
+        "num": 1,
+        "area": 237
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1945
+      },
+      {
+        "num": 1,
+        "area": 2048
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 3,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      },
+      {
+        "num": 7,
+        "area": 1
+      }
+    ]
+  },
+  "city": {
+    "labels": 40,
+    "unlabelled_components": [
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 8
+      },
+      {
+        "num": 1,
+        "area": 1883
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 1,
+        "area": 1
+      },
+      {
+        "num": 2,
+        "area": 742
+      },
+      {
+        "num": 3,
+        "area": 373
+      },
+      {
+        "num": 3,
+        "area": 2546
+      },
+      {
+        "num": 3,
+        "area": 100
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 4,
+        "area": 2
+      },
+      {
+        "num": 4,
+        "area": 121
+      },
+      {
+        "num": 4,
+        "area": 1
+      },
+      {
+        "num": 5,
+        "area": 435
+      },
+      {
+        "num": 5,
+        "area": 316
+      },
+      {
+        "num": 5,
+        "area": 949
+      }
+    ]
+  }
+}

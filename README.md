@@ -1,59 +1,117 @@
-# Outside the Lines
+# OutOfLine
 
-A kids' colouring book where every page is a double image: one simple line
-drawing (a house, an umbrella, a teacup...) whose contours, coloured by
-number, reveal a completely different, more detailed picture (an owl, a
-jellyfish, a hot air balloon...). Inspired by Rob Gonsalves' shared-contour
-magic realism.
+**The lines are not the boss of me!**
 
-The rule the book teaches: **thick line = a colour stops, thin line = colour
-straight over it.** The lines are not the boss of you.
+A colouring book for children aged 4-10 that encourages them to look again,
+colour across decorative lines, and invent their own possibilities. Each
+illustration has two intended readings: an everyday object in the line drawing,
+and another subject revealed through colour. Inspired by Rob Gonsalves' use of
+shared contours and visual transformations.
 
-## Pages
+<img src="book/recreated/cover.png" alt="OutOfLine paper-airplane cover" width="330">
 
-| # | looks like | is secretly |
-|---|-----------|-------------|
-| 1 | the house | an owl |
-| 2 | the umbrella | a jellyfish |
-| 3 | the flower | a butterfly |
-| 4 | the sailboat | a fish |
-| 5 | the tree | an elephant |
-| 6 | the bookshelf | a city at night |
+## Read the current book
 
-(, a teacup/hot-air-balloon page, is kept in the tree
-but not included in the book - add it back via MODS in book.py if wanted.)
+- [11-page book PDF](book/recreated/outofline-reconstruction-book.pdf)
+- [All seven drawings and colour reveals](book/recreated/outofline-reconstruction-sheets.pdf)
+- [Standalone cover PDF](book/recreated/outofline-cover-alternative.pdf)
+- [Illustration previews, part 1](book/recreated/recreated-1.png) and [part 2](book/recreated/recreated-2.png)
 
-## How it works
+This is the current review edition. It contains a cover, instructions, seven
+colouring pages, and two reveal pages. Each drawing uses seven colour numbers;
+children choose their own palette. The working rule is **thick line: stop;
+thin line: colour across it**. Children can also colour freely or invent a third
+reading.
 
-- `engine.py` - all the machinery. A page is a dict with:
-  - `shapes`: ordered `(polygon, colour_number)` list, painted like a stack
-    (later shapes overwrite earlier ones). These are the THICK lines and the
-    colour regions. Numbers are placed automatically (rasterise, flood-fill
-    each region, pole-of-inaccessibility via erosion, several labels spread
-    through big regions).
-  - `thin`: polylines drawn hairline; pure decoration, never a colour
-    boundary, never numbered.
-  - `colors`: number -> RGB, used only for the answer-key render.
-  Coordinate space is 0..1000 x 0..1000, y down. Primitives: circle, ellipse,
-  rect, arch, blob, arc, scallop_row, quoin_edge, mirror.
-- `pages/pN_*.py` - one file per page, geometry only.
-- `sheet.py p3_butterfly p5_balloon ...` - contact sheet (line art + reveal)
-  to `_sheet.png` for reviewing pages.
-- `book.py` - assembles the print-ready US-Letter PDF (cover, instructions,
-  6 colouring pages, 2 answer pages).
+## The seven transformations
 
-## Build
+| Page | First reading | Colour reveal | Current state |
+| --- | --- | --- | --- |
+| 1 | House | Owl | Approved; original geometry and numbering preserved |
+| 2 | Umbrella | Jellyfish | Cleaned up; rain restored |
+| 3 | Flower | Butterfly | Approved after line cleanup |
+| 4 | Sailboat | Fish | Scales contained inside the body; stronger thin mast |
+| 5 | Teacup | Hot-air balloon | Included; next refinement pending |
+| 6 | Tree | Elephant | Leaf cues, joined legs, shorter trunk and tusks |
+| 7 | Bookshelf | City at night | Included; next refinement pending |
 
-Needs Python 3 with numpy, Pillow, pycairo.
+The paper-airplane cover is selected for now. Its exact subtitle is
+**“The lines are not the boss of me!”**. The cover does not reveal any puzzle.
+See [design status](docs/design-status.md) for the decisions to preserve.
 
-    python3 book.py        # writes the PDF
-    python3 sheet.py       # contact sheet of every page
+## Build locally
 
-## Adding a page
+Tested with Python 3.12. Native Cairo is **not required** for the current build.
 
-Copy any `pages/pN_*.py`, design the double image (the simple object must win
-the first glance; hide giveaway features as plausible object detail; add a
-decoy shape painted the same colour as its surroundings so it vanishes in the
-reveal), then add the module name to `MODS` in `book.py` and `sheet.py`.
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements-lock.txt
+.venv/bin/python recreate.py
+.venv/bin/python cover_alternative.py --output book/recreated/outofline-cover-alternative.pdf
+```
 
-Output: `book/outside-the-lines.pdf`
+`requirements-lock.txt` records the tested package versions. `requirements.txt`
+provides version ranges for environments that need different compatible wheels.
+On Windows, use `.venv\Scripts\python.exe` in place of `.venv/bin/python`.
+
+The default build destination is `book/recreated/`, resolved relative to the
+source directory. An explicit `--output-dir PATH` is also supported. The builder
+can be called from a different working directory using its absolute path.
+It writes the book PDF, comparison PDF, and `region-audit.json`.
+
+To regenerate the PNG previews, install Poppler and run:
+
+```sh
+pdftoppm -scale-to-x 890 -scale-to-y -1 -png book/recreated/outofline-reconstruction-sheets.pdf book/recreated/recreated
+pdftoppm -f 1 -l 1 -r 85 -singlefile -png book/recreated/outofline-reconstruction-book.pdf book/recreated/cover
+```
+
+To compare against the saved geometry before the reconstruction and cleanup:
+
+```sh
+.venv/bin/python recreate.py --saved-geometry --output-dir work/saved-geometry
+```
+
+## Verify changes
+
+```sh
+.venv/bin/python -m unittest test_reconstruction.py
+```
+
+The tests check palette/label identities and exact preservation of the original
+owl's number placement. With Poppler installed, a third test renders the fish
+and checks that scale ink stays inside the visible body. That test is skipped
+when Poppler is absent. Also inspect rendered line art and coloured reveals;
+tests cannot establish whether both visual readings work for a child.
+
+## Source and documentation
+
+| File | Role |
+| --- | --- |
+| `recreate.py` | Current CLI, PDF layout, vector rendering and label placement |
+| `reference_reconstruction.py` | Reconstructs differences from the supplied prototypes |
+| `cleanup.py` | Current line cleanup, clipping metadata and selected refinements |
+| `cover_alternative.py` | Active paper-airplane cover; filename retained from its proposal stage |
+| `pages/` | Original saved geometry, retained for comparison |
+| `engine.py` | Geometry primitives, original label algorithm and legacy Cairo helpers |
+| `fonts/` | Bundled DejaVu fonts and redistribution licence |
+| `references/` | The owner's two original prototype contact sheets |
+| `book/recreated/` | Current generated PDFs, PNG previews and region audit |
+
+- [Architecture and build details](docs/architecture.md)
+- [Design decisions and pending work](docs/design-status.md)
+- [Recovery provenance](RECOVERY_NOTES.md)
+- [Contributor/agent context](AGENTS.md)
+
+`book.py` and `sheet.py` are historical Cairo entry points with obsolete
+machine-specific paths. Use `recreate.py`; those scripts do not produce the
+current edition. The former `book/outside-the-lines.pdf` has been superseded
+by the linked book in `book/recreated/`.
+
+## Remaining work
+
+The teacup and bookshelf are the next planned refinement. Some small regions
+still do not receive a number, and some hidden subjects are apparent before
+colouring. The region audit includes tiny raster slivers, so its counts are not
+counts of confirmed print defects. Age suitability and the two readings still
+need review with children; this is not yet a final production edition.
