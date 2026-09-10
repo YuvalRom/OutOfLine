@@ -12,6 +12,7 @@ shared contours and visual transformations.
 
 ## Read the current book
 
+- [Book with filled colour keys](book/recreated/outofline-colour-key-book.pdf)
 - [11-page book PDF](book/recreated/outofline-reconstruction-book.pdf)
 - [All seven drawings and colour reveals](book/recreated/outofline-reconstruction-sheets.pdf)
 - [Standalone cover PDF](book/recreated/outofline-cover-alternative.pdf)
@@ -57,7 +58,10 @@ On Windows, use `.venv\Scripts\python.exe` in place of `.venv/bin/python`.
 The default build destination is `book/recreated/`, resolved relative to the
 source directory. An explicit `--output-dir PATH` is also supported. The builder
 can be called from a different working directory using its absolute path.
-It writes the book PDF, comparison PDF, and `region-audit.json`.
+It writes the blank-key book, filled-colour-key book, comparison PDF, and
+`region-audit.json`. The filled-key edition uses each illustration's reveal
+palette in the seven numbered boxes and adapts the instructions. The drawings
+remain uncoloured.
 
 To regenerate the PNG previews, install Poppler and run:
 

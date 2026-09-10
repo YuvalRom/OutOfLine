@@ -225,7 +225,7 @@ def cover(c):
     text(c, 'A colouring book for curious minds', w/2, 657, 13, h, centered=True)
     text(c, 'YOUR IMAGINATION STARTS HERE', w/2, 732, 9, h, True, True)
 
-def book(c, pages, all_labels):
+def book(c, pages, all_labels, filled_keys=False):
     w, h = 612, 792
     c.setPageSize((w, h))
     from cover_alternative import cover as airplane_cover
@@ -250,6 +250,9 @@ def book(c, pages, all_labels):
         'Some spaces are small; younger children may want a helper.',
         'The examples at the back show just one possible colour palette.',
     ]
+    if filled_keys:
+        instructions[4] = '1. Find the suggested colours at the bottom of each page.'
+        instructions[5] = '2. Match your pencils or crayons to those colour boxes.'
     for i, line in enumerate(instructions):
         text(c, line, 48, 150+i*28, 12, h, i in (3, 12))
     text(c, 'The lines are not the boss of you.', w/2, 720, 16, h, True, True)
@@ -258,12 +261,16 @@ def book(c, pages, all_labels):
         text(c, f"{i:02d}  /  {p['title']}", 48, 66, 24, h, True)
         text(c, p['prompt']+'  What else could it be?', 48, 91, 12, h)
         art(c, p, 42, 112, 528, h, numbered=all_labels[p['key']])
-        text(c, 'YOUR COLOURS', 48, 679, 10, h, True)
+        text(c, 'SUGGESTED COLOURS' if filled_keys else 'YOUR COLOURS', 48, 679, 10, h, True)
         for num in range(1, 8):
             x = 55+(num-1)*76
             text(c, str(num), x+18, 701, 12, h, True, True)
             c.setLineWidth(1)
-            c.rect(x, h-744, 36, 34)
+            if filled_keys:
+                c.setFillColorRGB(*p['colors'][num])
+                c.rect(x, h-744, 36, 34, fill=1, stroke=1)
+            else:
+                c.rect(x, h-744, 36, 34)
         text(c, 'Thick line: stop.    Thin line: colour across it.', w/2, 769, 10, h, centered=True)
         c.showPage()
     for start in range(0, len(pages), 4):
@@ -300,6 +307,10 @@ def main():
     c = canvas.Canvas(str(args.output_dir/'outofline-reconstruction-book.pdf'), invariant=1)
     c.setTitle('OutOfLine - reconstruction proof')
     book(c, pages, all_labels)
+    c.save()
+    c = canvas.Canvas(str(args.output_dir/'outofline-colour-key-book.pdf'), invariant=1)
+    c.setTitle('OutOfLine - suggested colour keys')
+    book(c, pages, all_labels, filled_keys=True)
     c.save()
     (args.output_dir/'region-audit.json').write_text(json.dumps(audit, indent=2)+'\n')
 

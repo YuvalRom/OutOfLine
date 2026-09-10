@@ -13,7 +13,9 @@
    The owl and bookshelf keep the preceding rendering rules.
 5. `recreate.labels()` computes automatic label positions.
 6. ReportLab writes the comparison sheets and US-Letter book. The active cover
-   comes from `cover_alternative.cover()`.
+   comes from `cover_alternative.cover()`. The build writes both blank and
+   filled-key books; `book(..., filled_keys=True)` fills the seven key boxes
+   from `PAGE.colors`, while leaving the numbered drawing unchanged.
 
 `--saved-geometry` skips steps 3-4. This compares original saved geometry through
 the current renderer and layout; it does not recreate every historical PDF.

@@ -15,6 +15,13 @@ Retain only lines that contribute to the starting or revealed image. Thin
 lines are decoration children can colour across; thick lines delimit regions.
 All seven pages have seven colour numbers. Example palettes are suggestions.
 
+## Book editions
+
+Both editions contain the same seven numbered drawings and reveal pages.
+The original keeps colour-key boxes blank. The additional
+`outofline-colour-key-book.pdf` fills each box with that page's corresponding
+reveal colour, with instructions for matching pencils/crayons.
+
 ## Current decisions
 
 | Illustration | Decisions to retain |
