@@ -14,6 +14,13 @@ from scipy import ndimage
 from reportlab.pdfgen import canvas
 
 class ReconstructionTests(unittest.TestCase):
+    def test_cat_replaces_city_only_in_current_book(self):
+        current = [importlib.import_module(m).PAGE['key'] for m in recreate.MODS]
+        saved = [importlib.import_module(m).PAGE['key'] for m in recreate.SAVED_MODS]
+        self.assertEqual(current, saved[:-1] + ['cat'])
+        self.assertEqual(saved[-1], 'city')
+        self.assertEqual(len(current), 7)
+
     def test_palette_and_label_identity(self):
         pages = rebuild([importlib.import_module(m).PAGE for m in recreate.MODS])
         self.assertEqual(len(pages), 7)

@@ -10,4 +10,6 @@ Cairo entry points are historical. The paper-airplane cover is active, with
 "The lines are not the boss of me!" below the title.
 
 The owl and cleaned flower are approved. Current elephant proportions have
-joined legs, a shorter trunk, and shorter tusks. The redesigned cup/balloon and daylight bookshelf await owner review. Follow the owner's latest request over any older project note.
+joined legs, a shorter trunk, and shorter tusks. The redesigned cup/balloon is approved. The mountain landscape / sleeping cat replaces the bookshelf as illustration 7.
+Bookshelf/city is a possible future option; fruit bowl/turtle is deferred future
+work. Follow the owner's latest request over any older project note.

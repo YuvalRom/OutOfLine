@@ -31,9 +31,9 @@ reading.
 | 2 | Umbrella | Jellyfish | Cleaned up; rain restored |
 | 3 | Flower | Butterfly | Approved after line cleanup |
 | 4 | Sailboat | Fish | Scales contained inside the body; stronger thin mast |
-| 5 | Teacup | Hot-air balloon | Redesigned steam envelope and cup basket; awaiting review |
+| 5 | Teacup | Hot-air balloon | Approved; steam envelope and cup basket |
 | 6 | Tree | Elephant | Leaf cues, joined legs, shorter trunk and tusks |
-| 7 | Bookshelf | City in daylight | Blue sky, yellow sun, mint/coral/lavender buildings; awaiting review |
+| 7 | Mountain landscape | Sleeping cat | Selected to replace bookshelf; shared vector contours and seven colours |
 
 The paper-airplane cover is selected for now. Its exact subtitle is
 **“The lines are not the boss of me!”**. The cover does not reveal any puzzle.
@@ -79,10 +79,11 @@ To compare against the saved geometry before the reconstruction and cleanup:
 ```
 
 The tests check palette/label identities and exact preservation of the original
-owl's number placement. With Poppler installed, a third test renders the fish
+owl's number placement. With Poppler installed, a test renders the fish
 and checks that scale ink stays inside the visible body. That test is skipped
 when Poppler is absent. Also inspect rendered line art and coloured reveals;
-tests cannot establish whether both visual readings work for a child.
+tests cannot establish whether both visual readings work for a child. A roster
+check also ensures the cat replaces only the bookshelf in the active book.
 
 ## Source and documentation
 
@@ -93,7 +94,7 @@ tests cannot establish whether both visual readings work for a child.
 | `teacup_balloon.py` | Steam/balloon and cup/basket shared geometry |
 | `cleanup.py` | Current line cleanup, clipping metadata and selected refinements |
 | `cover_alternative.py` | Active paper-airplane cover; filename retained from its proposal stage |
-| `pages/` | Original saved geometry, retained for comparison |
+| `pages/` | Original saved geometry plus the new `p8_cat.py` landscape/cat page |
 | `engine.py` | Geometry primitives, original label algorithm and legacy Cairo helpers |
 | `fonts/` | Bundled DejaVu fonts and redistribution licence |
 | `references/` | The owner's two original prototype contact sheets |
@@ -111,7 +112,7 @@ by the linked book in `book/recreated/`.
 
 ## Remaining work
 
-The redesigned teacup and daylight bookshelf await owner review. Some small regions
+The redesigned teacup is approved. The sleeping cat replaces the bookshelf. The bookshelf/city remains a possible future option; fruit bowl/turtle is deferred future work. See [future work](docs/future-work.md). Some small regions
 still do not receive a number, and some hidden subjects are apparent before
 colouring. The region audit includes tiny raster slivers, so its counts are not
 counts of confirmed print defects. Age suitability and the two readings still

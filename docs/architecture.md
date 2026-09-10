@@ -3,7 +3,9 @@
 ## Pipeline
 
 1. `recreate.MODS` defines the seven page modules in book order.
-2. Each original module exports a `PAGE` dictionary.
+2. Each module exports a `PAGE` dictionary. The active seventh module is
+   `p8_cat.py`, a new shared vector drawing. `SAVED_MODS` retains `p7_city.py`
+   for the historical `--saved-geometry` comparison.
 3. `reference_reconstruction.rebuild()` copies the dictionaries and reconstructs
    features missing from the saved history.
 4. That function calls `cleanup.clean()` for the umbrella, flower, fish and
@@ -97,6 +99,9 @@ The tests cover:
    must lie in the visible body mask, allowing a 3-pixel antialiasing tolerance.
    This test is skipped if Poppler is unavailable.
 
+4. The active book replaces only the city slot with the cat; historical saved
+   geometry retains the city and the book remains seven illustrations.
+
 After changes, inspect both number pages and reveal pages at readable size.
 When a change is scoped to certain drawings, compare the content streams of
 unaffected PDF pages to catch accidental changes elsewhere.
@@ -110,5 +115,5 @@ preview functions still require that library if explicitly used.
 `book.py` and `sheet.py` are historical entry points with old sandbox paths.
 They are kept as provenance, not supported build commands. The unused
 `recreate.cover()` is the earlier crayon cover; the book explicitly imports the
-paper-airplane cover. Original geometry is in `pages/`; original screenshot
+paper-airplane cover. Original geometry and the new cat module are in `pages/`; original screenshot
 references are in `references/`.

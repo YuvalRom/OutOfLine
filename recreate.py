@@ -18,7 +18,8 @@ import engine
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'pages'))
 MODS = ['p1_owl', 'p2_jellyfish', 'p3_butterfly', 'p4_fish',
-        'p5_balloon', 'p6_elephant', 'p7_city']
+        'p5_balloon', 'p6_elephant', 'p8_cat']
+SAVED_MODS = MODS[:-1] + ['p7_city']
 FONT = 'Helvetica'
 BOLD = 'Helvetica-Bold'
 if (ROOT / 'fonts/DejaVuSans.ttf').exists():
@@ -281,7 +282,7 @@ def main():
     ap.add_argument('--saved-geometry', action='store_true', help='Render the unchanged Git geometry instead of reference reconstructions.')
     args = ap.parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    pages = [importlib.import_module(m).PAGE for m in MODS]
+    pages = [importlib.import_module(m).PAGE for m in (SAVED_MODS if args.saved_geometry else MODS)]
     if not args.saved_geometry:
         from reference_reconstruction import rebuild
         pages = rebuild(pages)

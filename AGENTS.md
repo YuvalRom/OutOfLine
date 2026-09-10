@@ -22,8 +22,12 @@ The function recreate.cover() is an unused earlier crayon design.
 - The paper-airplane cover is selected for now. Subtitle is exactly:
   "The lines are not the boss of me!". Do not show puzzle answers on the cover.
 - Teacup: a wide cup and handle become a basket; steam forms the balloon.
-  This new interpretation awaits review, especially its uncoloured first reading.
-- Bookshelf: daylight palette with blue sky, yellow sun, mint, coral and lavender.
+  Approved by the owner on 2026-09-11; preserve this version.
+- Mountain landscape / sleeping cat replaces bookshelf as illustration 7.
+  Use the shared vector drawing in pages/p8_cat.py for both line art and reveal.
+- Bookshelf / city is a possible future option, retained in p7_city.py and the
+  reconstruction override. Fruit bowl / turtle is deferred future work.
+  Neither belongs in the current book. See docs/future-work.md.
 
 ## Validate and preserve context
 
