@@ -5,7 +5,7 @@ Read those together with [README.md](README.md),
 [design status](docs/design-status.md), and
 [architecture](docs/architecture.md).
 
-Use `recreate.py` for the current seven-illustration, 11-page book. The old
+Use `recreate.py` for the current seven-illustration, 9-page book. The old
 Cairo entry points are historical. The paper-airplane cover is active, with
 "The lines are not the boss of me!" below the title.
 

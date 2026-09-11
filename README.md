@@ -13,13 +13,13 @@ shared contours and visual transformations.
 ## Read the current book
 
 - [Book with filled colour keys](book/recreated/outofline-colour-key-book.pdf)
-- [11-page book PDF](book/recreated/outofline-reconstruction-book.pdf)
+- [9-page book PDF](book/recreated/outofline-reconstruction-book.pdf)
 - [All seven drawings and colour reveals](book/recreated/outofline-reconstruction-sheets.pdf)
 - [Standalone cover PDF](book/recreated/outofline-cover-alternative.pdf)
 - [Illustration previews, part 1](book/recreated/recreated-1.png) and [part 2](book/recreated/recreated-2.png)
 
 This is the current review edition. It contains a cover, instructions, seven
-colouring pages, and two reveal pages. Each drawing uses seven colour numbers;
+colouring pages. Each drawing uses seven colour numbers;
 children choose their own palette. The working rule is **thick line: stop;
 thin line: colour across it**. Children can also colour freely or invent a third
 reading.

@@ -248,7 +248,7 @@ def book(c, pages, all_labels, filled_keys=False):
         'For a grown-up',
         'This is a reconstruction to review together, not a finished edition.',
         'Some spaces are small; younger children may want a helper.',
-        'The examples at the back show just one possible colour palette.',
+        'You can follow a palette or invent your own colours.',
     ]
     if filled_keys:
         instructions[4] = '1. Find the suggested colours at the bottom of each page.'
@@ -261,7 +261,7 @@ def book(c, pages, all_labels, filled_keys=False):
         text(c, f"{i:02d}  /  {p['title']}", 48, 66, 24, h, True)
         text(c, p['prompt']+'  What else could it be?', 48, 91, 12, h)
         art(c, p, 42, 112, 528, h, numbered=all_labels[p['key']])
-        text(c, 'SUGGESTED COLOURS' if filled_keys else 'YOUR COLOURS', 48, 679, 10, h, True)
+        text(c, 'YOUR COLOURS', 48, 679, 10, h, True)
         for num in range(1, 8):
             x = 55+(num-1)*76
             text(c, str(num), x+18, 701, 12, h, True, True)
@@ -272,15 +272,6 @@ def book(c, pages, all_labels, filled_keys=False):
             else:
                 c.rect(x, h-744, 36, 34)
         text(c, 'Thick line: stop.    Thin line: colour across it.', w/2, 769, 10, h, centered=True)
-        c.showPage()
-    for start in range(0, len(pages), 4):
-        text(c, 'A SECOND LOOK', 48, 70, 25, h, True)
-        text(c, 'One possible palette. Your colours can be different.', 48, 95, 11, h)
-        for j, p in enumerate(pages[start:start+4]):
-            x = 42+(j%2)*270
-            y = 125+(j//2)*300
-            art(c, p, x, y, 240, h, filled=True)
-            text(c, f"{start+j+1}. {p['answer']}", x+120, y+267, 12, h, True, True)
         c.showPage()
 
 def main():

@@ -12,6 +12,10 @@ The function recreate.cover() is an unused earlier crayon design.
 
 ## Preserve current decisions
 
+- Book editions have nine pages: cover, instructions and seven drawings.
+  Omit A SECOND LOOK answer pages. Keep filled keys in the colour-key edition
+  under the exact heading YOUR COLOURS. Comparison sheets remain separate.
+
 - Target ages 4-10; encourage creative interpretation, not just rule following.
 - The owner approved the owl and cleaned flower. Preserve them unless asked.
 - Umbrella: sparse detail, with rain retained.
